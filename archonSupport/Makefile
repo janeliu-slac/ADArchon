@@ -28,8 +28,8 @@ LIB_INSTALLS_Linux += ../os/linux-x86_64/libarchon.so
 else ifeq (rhel7-x86_64, $(findstring rhel7-x86_64, $(T_A)))
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libarchon.so
 
-else ifeq (rocky9-x86_64, $(findstring rocky9-x86_64, $(T_A)))
-LIB_INSTALLS_Linux += ../os/rocky9-x86_64/libarchon.so
+else ifeq (rhel9-x86_64, $(findstring rhel9-x86_64, $(T_A)))
+LIB_INSTALLS_Linux += ../os/rhel9-x86_64/libarchon.so
 
 else ifeq (linux-x86, $(findstring linux-x86, $(T_A)))
 LIB_INSTALLS_Linux += ../os/linux-x86/libarchon.so
